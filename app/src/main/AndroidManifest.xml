@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Mvvm">
         <activity
+            android:name=".RedioButtoActivity"
+            android:exported="false" />
+        <activity
             android:name=".EditTextActivity"
             android:exported="false" />
         <activity

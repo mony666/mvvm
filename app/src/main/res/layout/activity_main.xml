@@ -10,24 +10,28 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#669966"
-        android:text="LinearLayout" />
+        android:text="LinearLayout"
+        android:textAllCaps="false"/>
 
     <Button
         android:id="@+id/btn_RelativeLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:text="RelativeLayout"/>
+        android:text="RelativeLayout"
+        android:textAllCaps="false"/>
 
     <Button
         android:id="@+id/btn_textview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:text="TextView"/>
+        android:text="TextView"
+        android:textAllCaps="false"/>
 
     <Button
         android:id="@+id/btn_button"
+        android:textAllCaps="false"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
@@ -38,7 +42,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:text="EditText演示" />
+        android:text="EditText演示"
+        android:textAllCaps="false"/>
 
+
+    <Button
+        android:id="@+id/btn_rediobutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="rediobutton"
+        android:textAllCaps="false" />
 </LinearLayout>
 
