@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <!--    长方形颜色为橙色-->
+    <solid
+        android:color="#FF9900"/>
+<!--    圆角5dp-->
+    <corners
+        android:radius="8dp"/>
+
+</shape>

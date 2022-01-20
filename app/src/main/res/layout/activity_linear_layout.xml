@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+     orientation: 线性布局的方向
+     paddingLeft : 向左填充
+     paddingRight: 向右填充
+     paddingTop： 向上填充
+     paddingBottom： 填充底部
+     layout_marginLeft：向左移动
+     layout_marginBottom： 底部边距
+     layout_weight: 布局权重
+      padding :   填充
+      -->
+    <LinearLayout
+        android:id="@+id/ll_1"
+        android:orientation="vertical"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="#000000"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="50dp"
+        android:paddingBottom="10dp"
+        android:layout_marginBottom="20dp">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FF0033"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#0066FF"
+        android:orientation="horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#B40431"
+            android:layout_weight="1"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#FF0033"
+            android:layout_weight="2"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#55AA99"
+            android:layout_weight="2"/>
+
+    </LinearLayout>
+</LinearLayout>
