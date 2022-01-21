@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Mvvm">
         <activity
+            android:name=".recycleview.PuRecyclerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".recycleview.GridRecyclerViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".recycleview.HorRecylerViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".recycleview.LinearRecylerViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".recycleview.RecyclerViewActivity"
+            android:exported="false" />
+        <activity
             android:name=".RedioButtoActivity"
             android:exported="false" />
         <activity

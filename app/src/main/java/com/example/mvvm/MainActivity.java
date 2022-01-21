@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.mvvm.recycleview.RecyclerViewActivity;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     private Button btton1;
     private Button editText;
     private Button rediobutton;
+    private Button recyclerview;
 
 
     @Override
@@ -28,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         btton1 = (Button) findViewById(R.id.btn_button);
         editText = (Button) findViewById(R.id.btn_editText);
         rediobutton = findViewById(R.id.btn_rediobutton);
+        recyclerview = findViewById(R.id.btn_recyclerview);
         setListeners();
     }
 
@@ -39,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
         btton1.setOnClickListener(onclick);
         editText.setOnClickListener(onclick);
         rediobutton.setOnClickListener(onclick);
+        recyclerview.setOnClickListener(onclick);
     }
 
 
@@ -65,6 +70,9 @@ public class MainActivity extends AppCompatActivity {
                     break;
                 case R.id.btn_rediobutton:
                     intent = new Intent(MainActivity.this,RedioButtoActivity.class);
+                    break;
+                case R.id.btn_recyclerview:
+                    intent = new Intent(MainActivity.this, RecyclerViewActivity.class);
                     break;
 
 
