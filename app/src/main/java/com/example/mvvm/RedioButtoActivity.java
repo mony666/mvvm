@@ -3,7 +3,6 @@ package com.example.mvvm;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.view.View;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
@@ -15,7 +14,7 @@ public class RedioButtoActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_redio_butto);
+        setContentView(R.layout.activity_redio_button);
 
         mGg1 = (RadioGroup) findViewById(R.id.rb_1);
         //监听选中事件

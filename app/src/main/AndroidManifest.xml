@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.mvvm">
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -25,6 +28,15 @@
             android:name=".recycleview.RecyclerViewActivity"
             android:exported="false" />
         <activity
+            android:name=".gridview.GridViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ImageViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CheckBoxActivity"
+            android:exported="false" />
+        <activity
             android:name=".RedioButtoActivity"
             android:exported="false" />
         <activity
@@ -42,6 +54,12 @@
         <activity
             android:name=".TextActivity2"
             android:exported="false" />
+        <activity
+            android:name=".listview.ListViewActivity"
+            android:exported="false"
+            tools:ignore="MissingClass"
+           />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">

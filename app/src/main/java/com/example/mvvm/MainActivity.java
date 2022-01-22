@@ -7,6 +7,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.mvvm.gridview.GridViewActivity;
+import com.example.mvvm.listview.ListViewActivity;
+
 import com.example.mvvm.recycleview.RecyclerViewActivity;
 
 
@@ -18,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
     private Button btton1;
     private Button editText;
     private Button rediobutton;
+    private Button chekboxbutton,imageviewbutton,btn_listview,gridview;
     private Button recyclerview;
 
 
@@ -31,6 +35,10 @@ public class MainActivity extends AppCompatActivity {
         btton1 = (Button) findViewById(R.id.btn_button);
         editText = (Button) findViewById(R.id.btn_editText);
         rediobutton = findViewById(R.id.btn_rediobutton);
+        chekboxbutton = findViewById(R.id.chekboxbutton);
+        imageviewbutton = findViewById(R.id.imageviewbutton);
+        btn_listview =findViewById(R.id.btn_listview);
+        gridview =findViewById(R.id.gridview);
         recyclerview = findViewById(R.id.btn_recyclerview);
         setListeners();
     }
@@ -43,6 +51,10 @@ public class MainActivity extends AppCompatActivity {
         btton1.setOnClickListener(onclick);
         editText.setOnClickListener(onclick);
         rediobutton.setOnClickListener(onclick);
+        chekboxbutton.setOnClickListener(onclick);
+        imageviewbutton.setOnClickListener(onclick);
+        btn_listview.setOnClickListener(onclick);
+        gridview.setOnClickListener(onclick);
         recyclerview.setOnClickListener(onclick);
     }
 
@@ -73,6 +85,18 @@ public class MainActivity extends AppCompatActivity {
                     break;
                 case R.id.btn_recyclerview:
                     intent = new Intent(MainActivity.this, RecyclerViewActivity.class);
+                    break;
+                case R.id.chekboxbutton:
+                    intent = new Intent(MainActivity.this,CheckBoxActivity.class);
+                    break;
+                case R.id.imageviewbutton:
+                    intent = new Intent(MainActivity.this,ImageViewActivity.class);
+                    break;
+                case R.id. btn_listview:
+                    intent = new Intent(MainActivity.this, ListViewActivity.class);
+                    break;
+                case R.id.gridview:
+                    intent = new Intent(MainActivity.this, GridViewActivity.class);
                     break;
 
 

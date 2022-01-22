@@ -5,16 +5,28 @@
       <map>
         <entry key="..\:/AndroidPoject/mvvm/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.22083333333333333" />
         <entry key="..\:/AndroidPoject/mvvm/app/src/main/res/drawable/bg_btn4.xml" value="0.22083333333333333" />
+        <entry key="..\:/AndroidPoject/mvvm/app/src/main/res/drawable/bg_checkbox.xml" value="0.1953125" />
         <entry key="..\:/AndroidPoject/mvvm/app/src/main/res/drawable/bg_username.xml" value="0.22" />
         <entry key="..\:/AndroidPoject/mvvm/app/src/main/res/drawable/bt_btn2.xml" value="0.38229166666666664" />
         <entry key="..\:/AndroidPoject/mvvm/app/src/main/res/drawable/bt_btn3.xml" value="0.22083333333333333" />
         <entry key="..\:/AndroidPoject/mvvm/app/src/main/res/drawable/bt_btn4.xml" value="0.21822916666666667" />
         <entry key="..\:/AndroidPoject/mvvm/app/src/main/res/drawable/ic_baseline_arrow_drop_down_24.xml" value="0.22083333333333333" />
+        <entry key="..\:/AndroidPoject/mvvm/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.21770833333333334" />
+        <entry key="..\:/AndroidPoject/mvvm/app/src/main/res/drawable/ic_check_opt.xml" value="0.1953125" />
+        <entry key="..\:/AndroidPoject/mvvm/app/src/main/res/drawable/ic_check_surface.xml" value="0.1953125" />
+        <entry key="..\:/AndroidPoject/mvvm/app/src/main/res/drawable/ic_checkbox.xml" value="0.21302083333333333" />
         <entry key="..\:/AndroidPoject/mvvm/app/src/main/res/drawable/ic_launcher_background.xml" value="0.22083333333333333" />
+        <entry key="..\:/AndroidPoject/mvvm/app/src/main/res/drawable/list_item.xml" value="0.3338541666666667" />
         <entry key="..\:/AndroidPoject/mvvm/app/src/main/res/layout/activity_button.xml" value="0.2269021739130435" />
+        <entry key="..\:/AndroidPoject/mvvm/app/src/main/res/layout/activity_check_box.xml" value="0.33" />
         <entry key="..\:/AndroidPoject/mvvm/app/src/main/res/layout/activity_edit_text.xml" value="0.20516304347826086" />
+        <entry key="..\:/AndroidPoject/mvvm/app/src/main/res/layout/activity_grid_view.xml" value="0.18385416666666668" />
+        <entry key="..\:/AndroidPoject/mvvm/app/src/main/res/layout/activity_image_view.xml" value="0.33" />
         <entry key="..\:/AndroidPoject/mvvm/app/src/main/res/layout/activity_linear_layout.xml" value="0.2046875" />
+        <entry key="..\:/AndroidPoject/mvvm/app/src/main/res/layout/activity_listview.xml" value="0.33" />
         <entry key="..\:/AndroidPoject/mvvm/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/AndroidPoject/mvvm/app/src/main/res/layout/activity_redio_butto.xml" value="0.2015625" />
+        <entry key="..\:/AndroidPoject/mvvm/app/src/main/res/layout/activity_redio_button.xml" value="0.196875" />
         <entry key="..\:/AndroidPoject/mvvm/app/src/main/res/layout/activity_relative_layout.xml" value="0.2046875" />
         <entry key="..\:/AndroidPoject/mvvm/app/src/main/res/layout/activity_text2.xml" value="0.2046875" />
         <entry key="..\:/AndroidPoject/mvvm/app/src/main/res/layout/activity_text_view.xml" value="0.2046875" />
@@ -40,6 +52,8 @@
         <entry key="..\:/Users/Administrator/Desktop/mvvm/app/src/main/res/layout/layout_linear_item.xml" value="0.2753623188405797" />
         <entry key="..\:/Users/Administrator/Desktop/mvvm/app/src/main/res/layout/layout_linear_item_.xml" value="0.1421875" />
         <entry key="..\:/Users/Administrator/Desktop/mvvm/app/src/main/res/layout/layout_stafferedgrid_recyclerview_item.xml" value="0.2046875" />
+        <entry key="..\:/AndroidPoject/mvvm/app/src/main/res/layout/layout_grid_item.xml" value="0.18385416666666668" />
+        <entry key="..\:/AndroidPoject/mvvm/app/src/main/res/layout/layout_list_item.xml" value="0.2" />
       </map>
     </option>
   </component>
